@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+ <!-- bootstrap  -->
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+<!-- css  -->
+<link rel="stylesheet" href="styles.css">
+ <!-- scripts  -->
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+    <div class="container-fluid">
+
+    <div class="row ">
+        <div class="col-lg-3 col-md-12 container-fluid" id="welcome">
+            <h3>WELCOME</h3>
+            <p>You are 30 seconds away from earning your own money !!</p>
+        </div>
+        
+        <div class="fillup-shape col-lg-9 col-sm-12 container-fluid  " id="fillup">
+          <h1>Apply as an employee</h1>
+      
+<form action="mailto:varun7086verma@gmail.com" class="container-fluid" id="form" enctype="text/plain">
+        <div class="row m-3 ">
+            <div class="col-sm-12 col-lg-6">
+<input type="text" class="form-control" placeholder="First Name*" name="fname">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <input type="email" class="form-control" placeholder="Your Email*" name="youremail">
+
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-sm-12 col-lg-6">
+                <input type="text" class="form-control" placeholder="Last Name*" name="lname">
+
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <input type="number" class="form-control" placeholder="Your Phone*" name="yournumber">
+
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-sm-12 col-lg-6">
+                <input type="password" class="form-control" placeholder="Password*" name="password">
+
+            </div>
+            <div class="col-sm-12 col-lg-6">
+      <select class="form-select form-control" name="yourquestion">
+            <option name="nothing" value="0" > Please Select your Security Question  </option>
+            <option name="nick-name" value="1">What is your nick name ?</option>
+            <option name="phone-no." value="2">What is your old phone number ?</option>
+            <option name="f-love" value="3">Who is your first love ?</option>
+      </select>
+
+            </div>
+        </div>
+
+        <div class="row m-3">
+            <div class="col-sm-12 col-lg-6">
+<input class="form-control" type="password" placeholder="Confirm Password*" name="cpassword">
+            </div>
+            <div class="col-sm-12 col-lg-6">
+                <input class="form-control" type="text" placeholder="Enter your Answer*" name="answer">
+            </div>
+            <div class="row m-3">
+                <div class="col-sm-12 col-lg-3">
+                    <label for="male">Male</label>
+                    <input type="radio"  name="gender" id="male">
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <label for="female">Female</label>
+                    <input type="radio"  name="gender" id="female">
+                </div>
+                <div class="col-sm-12 col-lg-6 register_button my-5">
+                 <input type="submit" placeholder="Register" class="btn btn-lg btn-primary w-100">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+    </div>
+</div>
+</body>
+</html>

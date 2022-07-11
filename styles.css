@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+    background: rgb(57,49,175);
+background: linear-gradient(90deg, rgba(57,49,175,1) 21%, rgba(0,197,255,1) 77%);
+font-family: 'Open Sans', sans-serif;
+}
+ h1  ,h4 ,h5 ,h6{
+    font-size: 2rem;
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+
+
+.container-fluid{
+    padding:1% 10%;
+  
+ 
+}
+/* welcome section  */
+
+#welcome{
+
+
+    color:white;
+    padding:12% 2%;
+    line-height:1.5;
+   }
+
+#welcome h3{
+    font-size: 2rem;
+    line-height: 1.5;
+
+}
+
+   #form{
+    text-align:left;
+padding:.2rem;
+   
+   }
+
+
+
+
+
+/* Fill Up section  */
+
+#fillup{
+    
+    background-color: white;
+   
+}
+.fillup-shape{    
+   
+
+    border-radius:12rem 0 0 12rem;
+
+
+}
+
+.register_button{
+border-radius: 1rem;
+text-align:right;
+}
+
+.form-control{
+    border-color: black;
+    border-width:2px;
+    margin:5px;
+}
+
